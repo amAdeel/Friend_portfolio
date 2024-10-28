@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -24,4 +24,78 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+/* background.css */
+
+
+@media only screen and (max-width: 768px){
+  .w-full.md\:w-1\/2.flex.justify-start.md\:justify-start{
+    justify-content:center;
+  }
+  .w-\[380px\] {
+    width: 280px;
+  }
+  .h-\[300px\] {
+    height: 250px;
+  }
+  .w-\[400px\] {
+    width: 300px;
+  }
+  .h-\[400px\] {
+    height: 300px;
+  }
+  .pt-\[100px\] {
+    padding-top: 60px;
+  }
+  .pt-\[101px\] {
+    padding-top: 90px;
+  }
+  .gap-\[80px\] {
+    gap: 50px;
+  }
+  .gap-\[50px\] {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .pt-0 {
+    padding-top: 40px;
+  }
+  .pt-12 {
+    padding-top: 0rem;
+  }
+  .py-10 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .mb-12 {
+    margin-bottom: 0rem;
+  }
+  .justify-left{
+    justify-content: center;
+  }
+  .mb{
+    margin-bottom: 40px;
+  }
+  .h-auto {
+    height: auto;
+    width: 100%;
+}
+}
+.px-6 {
+  padding-left: 20px /* 24px */;
+  padding-right: 20px /* 24px */;
+}
+@media (min-width: 768px) {
+  .md\:px-10 {
+      padding-left: 20px /* 40px */;
+      padding-right: 20px /* 40px */;
+  }
+}
+img, video {
+  max-width: 100%;
+  height: revert-layer;
+}
+html {
+  scroll-behavior: smooth;
 }
