@@ -138,12 +138,12 @@ const Home = () => {
                 Expert Full-Stack Developer for High- <span className="text-[#FCCC1C]">Performance Web Solutions</span>
               </h1>
               <p className="text-lg text-[#ffffff]">
-              I am a full-stack developer with 1+ years of experience building scalable, high-performance web solutions. My expertise covers front-end and back-end technologies, optimizing for speed, security, and efficiency. I deliver dynamic web applications that transform business needs into seamless user experiences.
+              I am a full-stack developer with 1+ years of experience building scalable, high-performance web solutions. My expertise covers front-end and back-end technologies, optimizing for speed, security, and efficiency. I deliver dynamic web applications that transform business needs into seamless user experiences and for more information, please contact the my assistant.
               </p>
               <div className="flex justify-left">
-              <a href="/hire-me" className="relative inline-block w-[100px] mt-6 px-6 py-1 text-white font-medium rounded-lg text-lg border-2 border-[#FCCC1C] transition-all duration-300 overflow-hidden group flex items-center justify-center">
+              <a href="https://chatgpt.com/g/g-G7Eq5C0uC-usman-connect" className="relative inline-block w-[140px] sm:w-[160px] md:w-[180px] lg:w-[200px] mt-2 sm:mt-4 px-3 sm:px-4 py-1 sm:py-2 text-white font-medium rounded-lg text-base sm:text-lg border-2 border-[#FCCC1C] transition-all duration-300 overflow-hidden group flex items-center justify-center">
                 <span className="absolute inset-0 bg-[#FCCC1C] transform -translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0"></span>
-                <span className="relative z-10">Hire</span>
+                <span className="relative z-10 whitespace-nowrap">Usman Assistant</span>
               </a>
               </div>
             </div>
@@ -171,7 +171,7 @@ const Home = () => {
                 View Project
               </a>
             </div>
-            </div>  
+            </div>
           </div>
 
           {/* Project 2 */}
@@ -280,12 +280,12 @@ const Home = () => {
           <div className="space-y-8 pt-12  rounded-lg">
             {/* icon box1 */}
             <div className="flex items-center p-6 bg-[#000000] rounded-lg shadow-lg w-full max-w-[400px] mx-auto" style={{ boxShadow: "0 3px 10px #BEC0BF" }}>
-              <a href="tel:+123456789"className="flex items-center justify-center p-[16px] bg-[#FCCC1C] rounded-full mr-4">
+              <a href="tel:+923128788690"className="flex items-center justify-center p-[16px] bg-[#FCCC1C] rounded-full mr-4">
                 <FaPhoneAlt className="text-[#000000] text-2xl" />
               </a>
               <div className="text-left">
                 <h3 className="text-xl font-semibold text-[#92929D]">Call me</h3>
-                <p className="mt-1 text-[#FFFFFF]">+123 456 789</p>
+                <p className="mt-1 text-[#FFFFFF]">+923128788690</p>
               </div>
             </div>
               {/* icon box2 */}
