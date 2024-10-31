@@ -27,6 +27,12 @@ body {
 } */
 /* background.css */
 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
 
 @media only screen and (max-width: 768px){
   .w-full.md\:w-1\/2.flex.justify-start.md\:justify-start{
