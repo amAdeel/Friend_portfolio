@@ -19,7 +19,6 @@ import tailwindcss from "../../public/tailwindcss.png";
 import reactjs from "../../public/reactjs.png";
 import python from "../../public/python.png";
 import openAI from "../../public/openAI.png";
-import bgimage from "../../public/bgimage.jpg";
 
 // skills array
 const skills = [
@@ -79,13 +78,13 @@ const Home = () => {
   };
 
   return (
-    <section className="min-h-screen bg-[#000000] bg-cover bg-center bg-no-repeat w-full h-full" style={{ backgroundImage: `url(${bgimage.src})` }}>
+    <section className="min-h-screen bg-[#000000] bg-cover bg-center bg-no-repeat w-full h-full" style={{ backgroundImage: `url('/bgimage.jpg')` }}>
       <div className="container max-w-[1270px] mx-auto pt-[60px]">
         {/* Section 1 */}
         <div className="flex flex-col-reverse md:flex-row justify-between items-center px-6 h-auto md:h-96">
           <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pr-8 text-center md:text-left pt-0">
             <h1 className="text-3xl md:text-4xl font-bold text-[#FFFFFF] mb-4">
-              Hy, I’m <span className="text-[#FCCC1C]">Usman.</span>
+              Hy, I'm <span className="text-[#FCCC1C]">Usman.</span>
             </h1>
             <h1 className="text-3xl md:text-4xl font-bold text-[#FCCC1C] mb-4">
               <Typewriter options={{ strings: ["Full stack Developer.", "Mern stack developer."], autoStart: true, loop: true }} />
@@ -141,7 +140,7 @@ const Home = () => {
               I am a full-stack developer with 1+ years of experience building scalable, high-performance web solutions. My expertise covers front-end and back-end technologies, optimizing for speed, security, and efficiency. I deliver dynamic web applications that transform business needs into seamless user experiences and for more information, please contact the my assistant.
               </p>
               <div className="flex justify-left">
-              <a href="https://chatgpt.com/g/g-G7Eq5C0uC-usman-connect" className="relative inline-block w-[140px] sm:w-[160px] md:w-[180px] lg:w-[200px] mt-2 sm:mt-4 px-3 sm:px-4 py-1 sm:py-2 text-white font-medium rounded-lg text-base sm:text-lg border-2 border-[#FCCC1C] transition-all duration-300 overflow-hidden group flex items-center justify-center">
+              <a href="https://chatgpt.com/g/g-G7Eq5C0uC-usman-connect" className="relative  w-[140px] sm:w-[160px] md:w-[180px] lg:w-[200px] mt-2 sm:mt-4 px-3 sm:px-4 py-1 sm:py-2 text-white font-medium rounded-lg text-base sm:text-lg border-2 border-[#FCCC1C] transition-all duration-300 overflow-hidden group flex items-center justify-center">
                 <span className="absolute inset-0 bg-[#FCCC1C] transform -translate-x-full transition-transform duration-300 ease-in-out group-hover:translate-x-0"></span>
                 <span className="relative z-10 whitespace-nowrap">Usman Assistant</span>
               </a>
