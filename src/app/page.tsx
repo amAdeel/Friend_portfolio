@@ -1,13 +1,12 @@
-import Home from '@/Components/Home'
 import React from 'react'
+import Home from "@/Components/Home";
 
-const page = () => {
+const Page = () => {
   return (
     <>
-    <Home />
-
-    </>
+  <Home />
+    </>  
   )
 }
 
-export default page
+export default Page
