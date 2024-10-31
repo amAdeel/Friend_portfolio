@@ -84,7 +84,7 @@ const Home = () => {
         <div className="flex flex-col-reverse md:flex-row justify-between items-center px-6 h-auto md:h-96">
           <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pr-8 text-center md:text-left pt-0">
             <h1 className="text-3xl md:text-4xl font-bold text-[#FFFFFF] mb-4">
-              Hy, I'm <span className="text-[#FCCC1C]">Usman.</span>
+              Hy, I am <span className="text-[#FCCC1C]">Usman.</span>
             </h1>
             <h1 className="text-3xl md:text-4xl font-bold text-[#FCCC1C] mb-4">
               <Typewriter options={{ strings: ["Full stack Developer.", "Mern stack developer."], autoStart: true, loop: true }} />
